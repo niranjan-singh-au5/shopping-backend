@@ -1,0 +1,18 @@
+POST  http://localhost:5000/api/product
+Content-Type: application/json
+
+{
+    "highlights": [
+      "Stylish & Portable Thin and Light Laptop",
+      "13 inch Full HD+ LED Backlit IPS Retina Display (227 PPI, 500 nits Brightness, Wide Color (P3), True Tone Technology)",
+      "Light Laptop without Optical Disk Drive"
+    ],
+    "name": "Apple MacBook Pro with Touch Bar Core i5 10th Gen - (16 GB/1 TB SSD/Mac OS Catalina) MWP52HN/A  (13 inch, Space Grey, 1.4 kg)",
+    "description": "MacBook Pro, 61 W USB Type C Power Adapter, USB Type C Charge Cable (2 m), User Guide, Warranty Documents",
+    "image": "https://res.cloudinary.com/def9oldoo/image/upload/v1594054757/shopping-cart/apple-na-thin-and-light-laptop-original-imafs5nmg3kxcqnz_xcnbcm.jpg",
+    "price": 194900,
+    "ratings": "5"
+  }
+
+###
+GET http://localhost:5000/api/product
